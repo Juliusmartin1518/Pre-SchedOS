@@ -212,7 +212,7 @@ function setOutput(input, output) {
 
 function showGanttChart(output, outputDiv, updatedRemainingBurstTimeLog) {
     let ganttChartHeading = document.createElement("h3");
-    ganttChartHeading.innerHTML = "Gantt Chart";
+    ganttChartHeading.innerHTML = "Operation Process";
     outputDiv.appendChild(ganttChartHeading);
 
     let ganttChartData = [];
@@ -389,7 +389,7 @@ function showProcessesSortedByArrival() {
 
     // Create and add the title
     let title = document.createElement("h3");
-    title.textContent = "Processes and Their Arrival Times (Sorted by Arrival Time)";
+    title.textContent = "Gantt Chart)";
     outputDiv.appendChild(title);
 
     // Create a table element
